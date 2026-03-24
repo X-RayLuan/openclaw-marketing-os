@@ -1,127 +1,187 @@
 # OpenClaw Marketing OS
 
-**A multi-agent marketing operating system for research, content, publishing, QA, and growth execution.**
+> **A multi-agent marketing operating system for AI products.**
+> Turn community research into assets, threads, blogs, lifecycle campaigns, QA, and truth-state closure.
 
-OpenClaw Marketing OS packages the ClawLite/OpenClaw-style AI marketing team into a reusable operating model.
+OpenClaw Marketing OS is an open-source skill for running a **founder-led AI marketing machine** with agent-style roles, durable assets, delivery receipts, QA gates, and Mission Control truth.
 
-It is designed for founder-led AI products that need more than one-off content prompts. Instead of treating marketing as isolated tasks, it treats growth as a coordinated system with handoffs, receipts, QA, and truth-state discipline.
+Instead of treating marketing as disconnected prompts, this system treats it as a coordinated operating loop:
 
-## What it does
+**research → asset sync → social → blog → lifecycle → QA → truth closure**
 
-This skill helps run or audit a full AI marketing engine across:
-- community research and pain-point discovery
-- shared marketing-assets synchronization
-- content packaging and writing handoffs
-- social publishing
-- blog publishing
-- lifecycle / activation email
-- blog QA and closeout
-- truth-gate QA
-- Mission Control state mirroring
+---
 
-## Who it is for
+## Why this exists
 
-Use this if you are building:
-- an AI tool or agent product
-- a founder-led growth machine
-- a multi-agent content and marketing workflow
-- a research → assets → publish → QA operating loop
+Most “AI marketing” workflows break in the same place:
+- research never becomes reusable assets
+- content gets drafted but not published
+- posts go live without proof
+- teams confuse activity with delivery
+- no one knows what is actually complete
 
-## What makes it different
+OpenClaw Marketing OS solves that by turning marketing into a **multi-lane system with receipts**.
 
-Most marketing skills help with one thing:
+It is built for teams that want:
+- daily research discipline
+- reusable marketing-assets
+- X / LinkedIn / Facebook publishing
+- keyword-first blog production
+- lifecycle / activation execution
+- QA and blocker handling
+- same-day truth in Mission Control
+
+---
+
+## What it includes
+
+### Hunter — community intelligence
+- Reddit + X research
+- Pain Map
+- selection layer
+- Intel Pack
+- X viral-learning loop
+- marketing-assets sync
+
+### JK — packaging layer
+- converts same-day research + assets into cleaner writing substrate
+
+### Elon — social publishing
+- publishes X threads, LinkedIn posts, and Facebook posts
+- requires URL + visibility proof + ASSET_CHECK
+
+### Tony — blog publishing
+- keyword-first blog production
+- publish-first, not draft-first
+- source publish + QA closure
+
+### Jenny — lifecycle / activation
+- cohort selection
+- send execution
+- delivery truth
+- writeback/accounting
+
+### Peter — QA closeout
+- verifies live/public blog reality
+- closes blog lane with PASS / FAIL / BLOCKED truth
+
+### Karen — truth gate
+- verifies that claimed completion matches real evidence
+
+### Mission Control — state mirror
+- reflects same-day delivery truth
+- prevents optimism inflation
+- records blockers and make-up work
+
+---
+
+## Demo workflow
+
+```mermaid
+flowchart TD
+    A[Hunter research: Reddit + X + viral-learning] --> B[Pain Map + selection layer]
+    B --> C[marketing-assets sync]
+    C --> D[JK packaging layer]
+    D --> E[Elon social publishing]
+    D --> F[Tony blog publishing]
+    C --> G[Jenny lifecycle / activation]
+    F --> H[Peter blog QA]
+    E --> I[Karen truth gate]
+    F --> I
+    G --> I
+    H --> I
+    I --> J[Mission Control truth closure]
+```
+
+### Example same-day run
+
+1. **Hunter** finds the dominant pain point on Reddit + X
+2. Hunter syncs the durable learnings into `marketing-assets`
+3. **JK** packages the same-day substrate
+4. **Elon** publishes a deep X thread + LinkedIn/Facebook variants
+5. **Tony** publishes a keyword-first blog post
+6. **Jenny** sends a lifecycle / activation batch
+7. **Peter** verifies live blog state
+8. **Karen** checks whether completion claims are actually true
+9. **Mission Control** records the final same-day truth
+
+---
+
+## What makes this different from normal marketing skills
+
+Most skills help you create:
 - one post
 - one article
 - one campaign idea
 
-This skill helps with the **whole operating system**:
-- upstream research
-- shared asset layer
-- downstream publishing
-- proof of delivery
+This one helps you run the **operating system behind the work**.
+
+That means it emphasizes:
+- handoff discipline
+- asset-layer reuse
+- publish proof
+- QA gates
 - blocker handling
-- same-day truth closure
+- same-day receipts
+- truth-state language
 
-## Included lanes
+In other words:
 
-- **Hunter** — community intel + X/Reddit learning
-- **JK** — content packaging layer
-- **Elon** — social publishing
-- **Tony** — blog publishing
-- **Jenny** — lifecycle / activation
-- **Peter** — blog QA / closeout
-- **Karen** — truth gate
-- **Mission Control** — state mirror and receipts
+**It is not just content generation. It is marketing operations.**
 
-## Core principles
+---
+
+## Built for
+
+OpenClaw Marketing OS is especially useful for:
+- AI products
+- founder-led SaaS teams
+- open-source growth teams
+- multi-agent marketing experiments
+- teams that need research → publish → QA loops
+
+---
+
+## Core operating principles
 
 - research is not completion
 - drafts are not completion
 - published without proof is not completion
-- every lane needs receipts
+- every lane leaves a receipt
+- missing ASSET_CHECK means incomplete truth
 - Mission Control must match reality
 - partial work must not be inflated into false success
 
-## Demo workflow
+---
 
-### 1. Hunter finds the pain
-Hunter scans Reddit + X, identifies the strongest same-day pain point, produces:
-- Pain Map
-- selection layer
-- Intel Pack
-- X viral-learning notes
-- marketing-assets sync receipt
+## Skill structure
 
-### 2. marketing-assets become the shared substrate
-Hunter syncs the learnings into reusable hooks, angles, proof points, and CTA assets.
-
-### 3. JK packages the substrate
-JK turns same-day research + assets into cleaner downstream writing inputs.
-
-### 4. Elon publishes social
-Elon turns the same-day angle into:
-- X deep thread
-- LinkedIn adaptation
-- Facebook adaptation
-
-with:
-- ASSET_CHECK
-- URL
-- visibility proof
-- acceptance receipt
-
-### 5. Tony publishes blogs
-Tony uses keyword-first selection + same-day proof to publish blogs with source-publish + QA closure.
-
-### 6. Jenny activates users
-Jenny selects a cohort, executes lifecycle/activation sends, preserves accepted send truth, and completes writeback/accounting.
-
-### 7. Peter + Karen close the loop
-Peter verifies live blog state.
-Karen verifies that claimed completion matches reality.
-
-### 8. Mission Control reflects the truth
-Mission Control records what delivered, what blocked, and what still needs make-up.
-
-## Why this matters for SEO and marketing
-
-OpenClaw Marketing OS is not just a writing workflow.
-It is built to support:
-- keyword-first blog production
-- X thread learning and viral formula extraction
-- content proof and QA
-- asset-layer reuse
-- conversion-aware lifecycle work
-- same-day operational truth
-
-## Skill path
-
-The published skill lives in:
-- `openclaw-marketing-os/`
-
-Main entry:
+Main skill entry:
 - `openclaw-marketing-os/SKILL.md`
 
-## Status
+References:
+- `references/system-map.md`
+- `references/role-contracts.md`
+- `references/daily-loop.md`
+- `references/demo-workflow.md`
+- `references/open-source-packaging.md`
 
-Public release: **0.1.1**
+---
+
+## Good fit use cases
+
+Use this skill when you want to:
+- build a daily AI marketing machine
+- coordinate research, assets, social, blog, lifecycle, and QA
+- audit where your content pipeline is lying to you
+- make marketing work visible, accountable, and repeatable
+- package an OpenClaw/ClawLite-style marketing system for public reuse
+
+---
+
+## Public release
+
+- **Name:** OpenClaw Marketing OS
+- **Version:** 0.1.1
+- **GitHub:** https://github.com/X-RayLuan/openclaw-marketing-os
+
