@@ -1,86 +1,88 @@
 # Demo Workflow
 
-Use this walkthrough to explain how OpenClaw Marketing OS operates in practice.
+Use this walkthrough to explain how OpenClaw Marketing OS operates as a layered operating flow.
 
 ## Scenario
-A founder wants to turn one same-day pain point into:
-- one research package
-- one set of durable marketing assets
-- one X thread
-- one LinkedIn post
-- one blog post
-- one activation email batch
-- one QA / truth closure loop
+A founder or agency team wants to turn one same-day market signal into:
+- research intelligence
+- reusable marketing assets
+- social publishing
+- blog publishing
+- lifecycle activation
+- QA verification
+- Mission Control truth closure
 
-## Step 1 — Hunter finds the pain
-Hunter scans Reddit + X and identifies a same-day pain point, for example:
-- users want AI agents, but do not trust setup reliability on day one
-
-Hunter outputs:
+## 1. Intelligence Layer
+Hunter runs:
+- Reddit + X research
 - Pain Map
 - selection layer
 - Intel Pack
-- X viral-learning notes
+- X viral-learning loop
 - marketing-assets sync receipt
 
-## Step 2 — marketing-assets become the shared substrate
-Hunter syncs durable learnings into:
-- pain-point files
-- hook files
-- angle files
-- CTA files
-- X viral formulas
+Output:
+- a validated same-day pain point
+- structured research
+- durable asset updates
 
-Now the system is not working from raw notes.
-It is working from reusable assets.
+## 2. Packaging Layer
+JK converts the same-day research and synchronized assets into a cleaner writing substrate.
 
-## Step 3 — JK packages the content substrate
-JK converts same-day research + shared assets into a cleaner writing handoff for downstream lanes.
+Output:
+- sharper hooks
+- better framing
+- clearer writing inputs
+- more consistent downstream execution
 
-## Step 4 — Elon publishes social
-Elon uses the selected pain point + angle + proof to publish:
-- X deep thread
+## 3. Execution Layer
+The packaged inputs flow into parallel execution lanes.
+
+### Elon — Social Publishing
+Elon publishes:
+- X thread
 - LinkedIn adaptation
 - Facebook adaptation
 
-Required closure:
+Required proof:
 - ASSET_CHECK
-- canonical/public URL
+- public URL
 - visibility proof
 - acceptance receipt
 
-## Step 5 — Tony publishes blogs
-Tony uses:
-- keyword target
-- same-day angle
-- proof bundle
-- asset-layer hooks / CTA
-
-to publish blog posts that are:
+### Tony — Blog Publishing
+Tony publishes blog content that is:
 - keyword-first
-- same-day receipted
-- public QA verified
+- publish-first
+- source-backed
+- QA-closeable
 
-## Step 6 — Jenny activates users
-Jenny selects a cohort, sends a lifecycle/activation message, preserves accepted send truth, and completes writeback/accounting.
+### Jenny — Lifecycle / Activation
+Jenny runs:
+- cohort selection
+- send execution
+- delivery truth
+- writeback / accounting
 
-## Step 7 — Peter + Karen close truth
-Peter verifies the live blog state.
+## 4. QA / Truth Layer
+### Peter
+Peter verifies live/public blog reality.
+
+### Karen
 Karen verifies whether the system is claiming more than it actually delivered.
 
-## Step 8 — Mission Control reflects reality
-Mission Control records:
-- what delivered
-- what is blocked
-- what is still open
-- what make-up is required
+## 5. State Closure Layer
+Mission Control records the verified same-day operating state:
+- PASS / FAIL / BLOCKED
+- blockers
+- make-up work
+- truth-state mirror
 
 ## Demo outcome
 A complete same-day loop looks like:
 - research exists
 - assets exist
-- social exists with live proof
-- blog exists with live proof
-- lifecycle batch exists with delivery proof
+- publishing exists with live proof
+- lifecycle send exists with delivery proof
 - QA exists
 - Mission Control truth matches reality
