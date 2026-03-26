@@ -125,14 +125,41 @@ Owns same-day truth reflection, blockers, make-up work, and anti-optimism contro
 
 ## Demo Workflow
 
-A typical operating cycle follows this pattern:
+A typical operating cycle is structured as a layered workflow:
 
-1. **Hunter** detects market pain and builds an Intel Pack  
-2. **JK** converts research into usable messaging assets  
-3. **Elon / Tony / Jenny** produce channel-specific outputs  
-4. publishing or send execution happens  
-5. **Peter + Karen** verify whether the claimed work is actually real  
-6. **Mission Control** records same-day truth, blockers, and make-up work  
+### 1. Intelligence Layer
+- **Hunter** runs Reddit + X research
+- builds the **Pain Map**
+- applies the **selection layer**
+- produces the **Intel Pack**
+- syncs learnings into **marketing-assets**
+
+### 2. Packaging Layer
+- **JK** converts same-day research and assets into a cleaner writing substrate
+- sharpens hooks, framing, and message clarity
+- prepares execution-ready packaging inputs
+
+### 3. Execution Layer
+The packaged inputs flow into parallel execution lanes:
+
+- **Elon** → social publishing  
+  X threads, LinkedIn posts, Facebook posts, with URL proof + visibility proof + ASSET_CHECK
+
+- **Tony** → blog publishing  
+  keyword-first blog production, publish-first workflow, source publish + QA closure
+
+- **Jenny** → lifecycle / activation  
+  cohort selection, send execution, delivery truth, writeback/accounting
+
+### 4. QA / Truth Layer
+- **Peter** verifies live/public blog reality
+- **Karen** acts as the truth gate and checks whether claimed completion matches real evidence
+
+### 5. State Closure Layer
+- **Mission Control** records the verified state of the day
+- reflects PASS / FAIL / BLOCKED outcomes
+- records blockers and make-up work
+- prevents optimism inflation
 
 ---
 
