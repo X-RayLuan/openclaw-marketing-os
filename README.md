@@ -1,187 +1,363 @@
 # OpenClaw Marketing OS
 
-> **A multi-agent marketing operating system for AI products.**
-> Turn community research into assets, threads, blogs, lifecycle campaigns, QA, and truth-state closure.
+**A proof-driven multi-agent marketing operator for agencies and SMB growth teams.**
 
-OpenClaw Marketing OS is an open-source skill for running a **founder-led AI marketing machine** with agent-style roles, durable assets, delivery receipts, QA gates, and Mission Control truth.
-
-Instead of treating marketing as disconnected prompts, this system treats it as a coordinated operating loop:
-
-**research → asset sync → social → blog → lifecycle → QA → truth closure**
+Run market research, packaging, content production, publishing, lifecycle activation, QA, and truth-state reporting in one structured operating loop.
 
 ---
 
-## Why this exists
+## What It Is
 
-Most “AI marketing” workflows break in the same place:
-- research never becomes reusable assets
-- content gets drafted but not published
-- posts go live without proof
-- teams confuse activity with delivery
-- no one knows what is actually complete
+OpenClaw Marketing OS is an AI-native marketing operating system powered by specialized OpenClaw agents.
 
-OpenClaw Marketing OS solves that by turning marketing into a **multi-lane system with receipts**.
+It is built to help teams turn fragmented marketing work into a repeatable workflow across:
 
-It is built for teams that want:
-- daily research discipline
-- reusable marketing-assets
-- X / LinkedIn / Facebook publishing
-- keyword-first blog production
-- lifecycle / activation execution
-- QA and blocker handling
-- same-day truth in Mission Control
+- market intelligence
+- pain-point discovery
+- packaging and messaging
+- content production
+- social publishing
+- blog publishing
+- lifecycle activation
+- QA and truth verification
+
+This is **not just an AI content generator**.
+
+It is a **multi-agent marketing operator** designed for execution, proof, and operating discipline.
 
 ---
 
-## What it includes
+## What It Runs
 
-### Hunter — community intelligence
-- Reddit + X research
-- Pain Map
-- selection layer
-- Intel Pack
-- X viral-learning loop
-- marketing-assets sync
+### Market Intelligence
+- community research
+- pain map generation
+- topic selection
+- competitor and angle discovery
 
-### JK — packaging layer
-- converts same-day research + assets into cleaner writing substrate
+### Packaging Layer
+- converts raw research into usable messaging assets
+- sharpens hooks, framing, and positioning
+- improves downstream consistency
 
-### Elon — social publishing
-- publishes X threads, LinkedIn posts, and Facebook posts
-- requires URL + visibility proof + ASSET_CHECK
+### Content Production
+- blogs
+- social posts
+- landing page copy
+- lifecycle messages
 
-### Tony — blog publishing
-- keyword-first blog production
-- publish-first, not draft-first
-- source publish + QA closure
+### Publishing Workflow
+- social publishing
+- blog publishing
+- URL proof
+- visibility verification
+- receipt logging
 
-### Jenny — lifecycle / activation
+### Lifecycle Activation
 - cohort selection
 - send execution
 - delivery truth
 - writeback/accounting
 
-### Peter — QA closeout
-- verifies live/public blog reality
-- closes blog lane with PASS / FAIL / BLOCKED truth
+### QA & Truth Layer
+- PASS / FAIL / BLOCKED closeout
+- make-up work tracking
+- anti-optimism verification
 
-### Karen — truth gate
-- verifies that claimed completion matches real evidence
-
-### Mission Control — state mirror
-- reflects same-day delivery truth
-- prevents optimism inflation
-- records blockers and make-up work
+### Mission Control
+- same-day execution truth
+- blocker visibility
+- lane state mirror
+- proof-based operating status
 
 ---
 
-## Demo workflow
+## Why It Exists
 
-```mermaid
-flowchart TD
-    A[Hunter research: Reddit + X + viral-learning] --> B[Pain Map + selection layer]
-    B --> C[marketing-assets sync]
-    C --> D[JK packaging layer]
-    D --> E[Elon social publishing]
-    D --> F[Tony blog publishing]
-    C --> G[Jenny lifecycle / activation]
-    F --> H[Peter blog QA]
-    E --> I[Karen truth gate]
-    F --> I
-    G --> I
-    H --> I
-    I --> J[Mission Control truth closure]
+Marketing execution often breaks down because:
+
+- research is inconsistent
+- content gets drafted but not published
+- teams confuse “generated” with “delivered”
+- reporting becomes optimistic instead of verifiable
+- lessons do not accumulate into reusable assets
+
+OpenClaw Marketing OS exists to solve this by turning marketing work into:
+
+- structured execution
+- verified delivery
+- reusable intelligence
+- visible blockers
+- truthful operating state
+
+---
+
+## Agent Operating Team
+
+### Muddy — Marketing Lead
+Owns orchestration, priority setting, and cross-lane coordination.
+
+### Hunter — Community Intelligence
+Owns Reddit + X research, Pain Map, selection layer, Intel Pack, viral-learning loop, and marketing-assets sync.
+
+### JK — Packaging Layer
+Owns converting same-day research and assets into a cleaner writing substrate.
+
+### Elon — Social Publishing
+Owns X, LinkedIn, and Facebook publishing with URL proof, visibility proof, and ASSET_CHECK.
+
+### Tony — Blog Publishing
+Owns keyword-first blog production, publish-first workflow, and source publish + QA closure.
+
+### Jenny — Lifecycle / Activation
+Owns cohort selection, send execution, delivery truth, and writeback/accounting.
+
+### Peter — QA Closeout
+Owns blog-lane verification and closes with PASS / FAIL / BLOCKED truth.
+
+### Karen — Truth Gate
+Owns final verification that claimed completion matches real evidence.
+
+### Mission Control — State Mirror
+Owns same-day truth reflection, blockers, make-up work, and anti-optimism control.
+
+---
+
+## Demo Workflow
+
+A typical operating cycle follows this pattern:
+
+1. **Hunter** detects market pain and builds an Intel Pack  
+2. **JK** converts research into usable messaging assets  
+3. **Elon / Tony / Jenny** produce channel-specific outputs  
+4. publishing or send execution happens  
+5. **Peter + Karen** verify whether the claimed work is actually real  
+6. **Mission Control** records same-day truth, blockers, and make-up work  
+
+---
+
+## Proof / Truth Model
+
+This system is designed around **delivery truth**, not output volume.
+
+### What counts as done
+- live URL exists
+- visibility proof exists
+- ASSET_CHECK is present
+- delivery truth is recorded
+- QA closure is complete
+
+### What does not count as done
+- draft completed
+- content generated but not published
+- status update without evidence
+- claim without proof
+
+### Final states
+- **PASS**
+- **FAIL**
+- **BLOCKED**
+
+Most AI marketing systems optimize for generation.  
+OpenClaw Marketing OS optimizes for **execution truth**.
+
+---
+
+## Mission Control
+
+Mission Control is the operating mirror of the system.
+
+It shows:
+
+- same-day delivery truth
+- lane-by-lane status
+- blockers
+- make-up work
+- verified receipts
+- the difference between claimed work and real work
+
+Mission Control exists to prevent **optimism inflation**.
+
+---
+
+## Profiles
+
+Use profiles to start with the right operating scope.
+
+### `starter`
+Minimal setup with core research, content, and reporting.
+
+### `content_only`
+Research, packaging, and content production.
+
+### `social_ops`
+Research, packaging, publishing, and proof for social workflows.
+
+### `agency_full_stack`
+Full multi-agent workflow including lifecycle, QA, and Mission Control.
+
+---
+
+## Industry / Use-Case Examples
+
+This system can be adapted to multiple operator contexts.
+
+Suggested examples:
+
+- `examples/b2b-saas/`
+- `examples/agency-client-content/`
+- `examples/local-services/`
+- `examples/ecommerce-growth/`
+
+Each example should define:
+
+- ICP
+- channels
+- deliverables
+- workflow rhythm
+- proof requirements
+
+---
+
+## What We Deliver
+
+### Daily
+- Pain Map
+- Intel Pack
+- packaging assets
+- social outputs
+- published blog
+- lifecycle sends
+- QA verdicts
+- Mission Control snapshot
+
+### Weekly
+- trend summary
+- content summary
+- blockers and lessons
+- next priorities
+
+### Monthly
+- reusable asset library
+- workflow performance review
+- operating reports
+- refined templates and playbooks
+
+---
+
+## Quick Start
+
+### Option A — Use it as a Marketing Operator Template
+1. clone the repo  
+2. choose a profile  
+3. customize the context layers  
+4. connect tools/channels  
+5. run the first workflow  
+
+### Option B — Use it as an Agency Operating Layer
+1. define one client or brand  
+2. activate the required lanes  
+3. configure Mission Control  
+4. run a pilot week  
+5. validate truth-state and blockers  
+
+---
+
+## Repo Structure
+
+Suggested structure:
+
+```text
+openclaw-marketing-os/
+├── agents/
+├── profiles/
+├── examples/
+├── marketing-assets/
+├── mission-control/
+├── skills/
+├── workspace/
+├── docs/
+└── receipts/
 ```
 
-### Example same-day run
-
-1. **Hunter** finds the dominant pain point on Reddit + X
-2. Hunter syncs the durable learnings into `marketing-assets`
-3. **JK** packages the same-day substrate
-4. **Elon** publishes a deep X thread + LinkedIn/Facebook variants
-5. **Tony** publishes a keyword-first blog post
-6. **Jenny** sends a lifecycle / activation batch
-7. **Peter** verifies live blog state
-8. **Karen** checks whether completion claims are actually true
-9. **Mission Control** records the final same-day truth
+The repo should be organized for **product understanding**, not just internal development.
 
 ---
 
-## What makes this different from normal marketing skills
+## Implementation Model
 
-Most skills help you create:
-- one post
-- one article
-- one campaign idea
+### Phase 1 — Pilot
+- define scope
+- run with 1 agency or 1–3 brands
+- validate the daily loop
 
-This one helps you run the **operating system behind the work**.
+### Phase 2 — Workflow Stabilization
+- standardize receipts and proof
+- improve agent handoffs
+- tighten QA and truth-state
 
-That means it emphasizes:
-- handoff discipline
-- asset-layer reuse
-- publish proof
-- QA gates
-- blocker handling
-- same-day receipts
-- truth-state language
+### Phase 3 — Productization
+- package service tiers
+- define white-label structure
+- support multi-client operations
 
-In other words:
-
-**It is not just content generation. It is marketing operations.**
-
----
-
-## Built for
-
-OpenClaw Marketing OS is especially useful for:
-- AI products
-- founder-led SaaS teams
-- open-source growth teams
-- multi-agent marketing experiments
-- teams that need research → publish → QA loops
+### Phase 4 — Scale Layer
+- reusable templates
+- analytics
+- stronger reporting
+- broader agency deployment
 
 ---
 
-## Core operating principles
+## Who It Is For
 
-- research is not completion
-- drafts are not completion
-- published without proof is not completion
-- every lane leaves a receipt
-- missing ASSET_CHECK means incomplete truth
-- Mission Control must match reality
-- partial work must not be inflated into false success
+Best for:
 
----
+- marketing agencies serving SMBs
+- growth operators
+- founder-led teams with content + activation needs
+- teams that care about proof and repeatability
 
-## Skill structure
+Not ideal for:
 
-Main skill entry:
-- `openclaw-marketing-os/SKILL.md`
-
-References:
-- `references/system-map.md`
-- `references/role-contracts.md`
-- `references/daily-loop.md`
-- `references/demo-workflow.md`
-- `references/open-source-packaging.md`
+- teams looking only for generic AI copy generation
+- teams unwilling to review outputs
+- teams that do not care about verified delivery
 
 ---
 
-## Good fit use cases
+## Why It’s Different
 
-Use this skill when you want to:
-- build a daily AI marketing machine
-- coordinate research, assets, social, blog, lifecycle, and QA
-- audit where your content pipeline is lying to you
-- make marketing work visible, accountable, and repeatable
-- package an OpenClaw/ClawLite-style marketing system for public reuse
+OpenClaw Marketing OS is different because it combines:
+
+- multi-agent role specialization
+- proof-based completion
+- Mission Control truth-state
+- reusable marketing intelligence loops
+
+It is built to answer not only:
+
+> “What did the AI generate?”
+
+but also:
+
+> “What was actually delivered, verified, and learned?”
 
 ---
 
-## Public release
+## Roadmap
 
-- **Name:** OpenClaw Marketing OS
-- **Version:** 0.1.1
-- **GitHub:** https://github.com/X-RayLuan/openclaw-marketing-os
+- profile system
+- vertical examples
+- stronger reporting
+- delivery connectors
+- better attribution
+- reusable workflow packs
+- white-label agency deployment
 
+---
+
+## Closing
+
+Build a marketing system that does not just generate work —  
+**it proves what actually got done.**
